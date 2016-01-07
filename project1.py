@@ -2,12 +2,13 @@
 dict = {}
 with open("logins.txt") as f:
     for line in f:
-       (key, val) = line.split()
-       dict[(key)] = val
+       (user, password) = line.split()
+       dict[(user)] = password
 
 print ('This is a login procedure')
 print ('What is your username?')
 username = input()
+
 
 if username in dict.keys():
     print ('What is your password?')
