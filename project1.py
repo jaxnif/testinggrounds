@@ -7,8 +7,7 @@ with open("logins.txt") as f:
 
 print ('This is a login procedure')
 print ('What is your username?')
-username = input()
-
+username = (input()).lower()
 
 if username in dict.keys():
     print ('What is your password?')
