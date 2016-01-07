@@ -5,3 +5,8 @@ with open("logins.txt") as f:
        (key, val) = line.split()
        dict[(key)] = val
 
+print ('This is a login procedure')
+print ('What is your username?')
+username = input()
+
+if username in dict[]
